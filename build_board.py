@@ -15,6 +15,7 @@ REPO = os.path.dirname(os.path.abspath(__file__))
 S = os.path.expanduser("~/UNDERGROUND_FUNNELS_SSOT/01_RAW_FUNNELS")
 P7 = f"{S}/Miss_Affiliate - Signup_Sunday - 2026-07-31/02_Pages"
 P8 = f"{S}/Miss_Affiliate - Signup_Sunday - 2026-08-18/02_Pages"
+P9 = f"{S}/Miss_Affiliate - Signup_Sunday - 2026-08-21/02_Pages"
 NEW = f"{REPO}/media/shots_20260821"
 ADS = f"{REPO}/media/ads_20260821"
 
@@ -44,7 +45,7 @@ CONFIG = {
             "col": 2, "y": 120, "lane": "event", "step": "Entry — funnel A",
             "title": "The /signup opt-in — Wed 8pm ET",
             "url": "themissaffiliate.com/signup",
-            "img": f"{NEW}/signup.png",
+            "img": f"{P9}/02_Opt-in/20260821T222500Z__screenshot_fullpage.png",
             "max_h": 1000,
             "note": "&ldquo;From 12-hour nursing shifts burnt out to $157k/month.&rdquo; "
                     "Phone and email <b>required</b>, name optional. "
@@ -55,7 +56,7 @@ CONFIG = {
             "col": 3, "y": 120, "lane": "back", "step": "Upsell 1",
             "title": "$27 VIP — &ldquo;spot isn't fully confirmed yet&rdquo;",
             "url": "themissaffiliate.com/almostdone",
-            "img": f"{NEW}/almostdone.png",
+            "img": f"{P9}/04_VIP_upsell_$27/20260821T222500Z__screenshot_fullpage.png",
             "max_h": 1000,
             "note": "30-day roadmap, product guide + 13 niches, top 20 hooks, and a 1-to-1 "
                     "coach call. &ldquo;Limited to 50 women total.&rdquo;",
@@ -64,7 +65,7 @@ CONFIG = {
             "col": 4, "y": 120, "lane": "back", "step": "Upsell 2",
             "title": "$47 &rarr; $13 replay-access downsell",
             "url": "themissaffiliate.com/almostdone-416757-272179",
-            "img": f"{P7}/P2_optin_P2_20260731T115714Z/20260731T115827Z__s1_after__screenshot_fullpage.png",
+            "img": f"{P9}/05_Downsell_$47_to_$13_replay/20260821T222500Z__screenshot_fullpage.png",
             "max_h": 1000,
             "note": "Declining the VIP does not end the sequence. A second paid offer for "
                     "<b>replay access</b> fires before she will confirm the seat.",
@@ -73,7 +74,7 @@ CONFIG = {
             "col": 5, "y": 120, "lane": "ever", "step": "Replay + booking",
             "title": "The full workshop replay — 1h 42m",
             "url": "themissaffiliate.com/replay",
-            "img": f"{P8}/03_TY_registered_for_the_workshop/20260818T093447Z__screenshot_fullpage.png",
+            "img": f"{P9}/01_Replay_-_ungated_class_+_booking/20260821T222500Z__screenshot_fullpage.png",
             "max_h": 1000,
             "note": "The whole class now sits here, ungated, on Vidalytics — <b>6,177 seconds</b>. "
                     "A 1-hour <b>&ldquo;Miss Affiliate 1-1 Call&rdquo; booking calendar sits directly "
@@ -83,7 +84,7 @@ CONFIG = {
             "col": 2, "y": 1360, "lane": "ever", "step": "Entry — funnel B",
             "title": "The /start VSL",
             "url": "themissaffiliate.com/start",
-            "img": f"{P8}/02_VSL_start/20260818T093439Z__screenshot_fullpage.png",
+            "img": f"{P9}/03_VSL_start/20260821T222500Z__screenshot_fullpage.png",
             "max_h": 900,
             "note": "Watch video &rarr; apply. Different pixel "
                     "(<code>903499129224608</code>), <b>no Cortana</b>, and the footer says "

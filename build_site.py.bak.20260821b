@@ -20,7 +20,6 @@ CONFIG = {
     "ADS_KEY": "miss_affiliate",
     "FUNNEL_IDS": ["F117"],
     "CAPTURED": "21 August 2026",
-    "CAPTURE": "Miss_Affiliate - Signup_Sunday - 2026-08-21",
     "REPO": REPO,
     "PACKAGE": "~/Downloads/Swipes/MISS_AFFILIATE_Swipe",
     "BLURB": "A nurse-to-$157k/month TikTok Shop offer sold to women. She went dark on Meta at "
@@ -31,58 +30,10 @@ CONFIG = {
     "PAGES": [
         ("index.html", "Overview"),
         ("slides.html", "Masterclass slides"),
-        ("workshop.html", "Masterclass transcript"),
         ("analysis.html", "Objection teardown"),
         ("transcripts.html", "Objection library"),
         ("videos.html", "Video library"),
     ],
-
-    "EMAIL_NOTE": "All 71 land from <code>webinarinfo@webinarjam.net</code> under the display "
-                  "name <b>Annamaria Prideaux</b> — never from her own domain. That is why they "
-                  "sat unattributed until 21 Aug: both the sender map and the name map were "
-                  "looking for &ldquo;miss affiliate&rdquo;. The sequence is WebinarJam's stock "
-                  "reminder ladder, not hand-written copy.",
-
-
-    # Keyed by the capture step folder. Says what each page is DOING.
-    "PAGE_NOTES": {
-        "01_Replay_-_ungated_class_+_booking":
-            "<b>The page that changes the read on her.</b> The entire 1h42m class runs here "
-            "unauthenticated on Vidalytics while the same replay is still sold for $13 one step "
-            "earlier in the confirmation ladder. Under the player: &ldquo;Apply Below to Learn "
-            "More&rdquo; and a live <b>1-hour &lsquo;Miss Affiliate 1-1 Call&rsquo;</b> booking "
-            "calendar. Replay straight into a booked call, no application, no gate.",
-        "02_Opt-in":
-            "Countdown headline says <b>Sun 3pm ET</b> while 6 of her 7 live creatives say the "
-            "same &mdash; but the ads point here from a <code>/signup</code> slug. Scarcity is "
-            "<b>&ldquo;250 total live spots&rdquo;</b>, and registration is framed as a "
-            "<b>ticket</b> (&ldquo;Claim Your Ticket&rdquo;), not a signup. The form is behind a "
-            "Cloudflare Turnstile modal, which is why scripted opt-in never submits.",
-        "03_VSL_start":
-            "Funnel B. Watch-then-apply, a <b>different pixel</b> "
-            "(<code>903499129224608</code>), <b>no Cortana</b>, and a footer that reads "
-            "<b>Los Angeles, CA</b> where funnel A says St. Petersburg, FL. No Meta ads point "
-            "here.",
-        "04_VIP_upsell_$27":
-            "Fires before the seat is confirmed &mdash; <b>&ldquo;Your Spot Isn't Fully Confirmed "
-            "Yet&hellip;&rdquo;</b>. $27 for a 30-day roadmap, product guide + 13 niches, top 20 "
-            "hooks and a 1-to-1 coach call. Scarcity is <b>&ldquo;50 Women Total&rdquo;</b> "
-            "against the opt-in's 250. A Vidalytics video explains the upsell.",
-        "05_Downsell_$47_to_$13_replay":
-            "Declining the VIP does not end the ladder. <b>$47 struck to $13</b> for replay "
-            "access, with the decline link written as a loss &mdash; <b>&ldquo;No Thank You, Miss "
-            "Out On Replay Access&rdquo;</b>. This is the offer the free <code>/replay</code> "
-            "page now gives away.",
-        "06_TY_registered_for_the_workshop":
-            "Where the <b>21-video objection library</b> lives &mdash; 26 embeds detected on this "
-            "page alone. Every objection her closers would otherwise handle live is answered on "
-            "camera between opt-in and event.",
-        "07_Call_tentatively_scheduled":
-            "<b>Tentatively</b> scheduled &mdash; the booking is deliberately not treated as "
-            "done. Three confirmation steps: watch a video, add to calendar, then confirm by "
-            "text within 10 minutes. It also pre-empts the Google &ldquo;Invitation from an "
-            "unknown sender&rdquo; warning rather than letting it kill the show.",
-    },
 
     "STATS": [
         ("Live Meta ads", "18"),
@@ -204,17 +155,6 @@ CONFIG = {
     "TRANSCRIPT_GROUPS": [
         ("The masterclass — full 1h 42m replay, 22,442 words", workshop),
         ("Objection library — 21 videos", objections),
-    ],
-
-    "TRANSCRIPT_PAGES": [
-        ("workshop.html", "The masterclass",
-         "The full 1h 42m 57s class, timestamped, pulled off the ungated "
-         "<code>/replay</code> page on 21 Aug 2026. 22,442 words.",
-         [("The masterclass — full 1h 42m replay", workshop)]),
-        ("transcripts.html", "Objection library",
-         "The 21 pre-webinar objection videos, timestamped. Search filters across "
-         "all of them at once.",
-         [("Objection library — 21 videos", objections)]),
     ],
 
     "SLIDE_PAGES": [
